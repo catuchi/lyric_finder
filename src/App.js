@@ -19,7 +19,7 @@ function App() {
       setTrackList(res.data.message.body.track_list);
     };
 
-    // fetchTracks();
+    fetchTracks();
   }, []);
 
   return (
