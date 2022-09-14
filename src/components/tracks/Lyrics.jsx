@@ -22,7 +22,7 @@ const Lyrics = () => {
       }
     };
 
-    // fetchLyrics();
+    fetchLyrics();
   }, []);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const Lyrics = () => {
       }
     };
 
-    // fetchTrack();
+    fetchTrack();
   }, []);
 
   return track === undefined ||

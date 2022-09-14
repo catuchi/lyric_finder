@@ -24,7 +24,7 @@ function App() {
       }
     };
 
-    // fetchTracks();
+    fetchTracks();
   }, []);
 
   return (

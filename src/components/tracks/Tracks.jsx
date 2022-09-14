@@ -6,7 +6,7 @@ import Track from "./Track";
 const Tracks = () => {
   const { trackList, heading } = useContext(IndexContext);
 
-  console.log(trackList);
+  // console.log(trackList);
   return trackList === undefined || trackList.length === 0 ? (
     <Spinner />
   ) : (
