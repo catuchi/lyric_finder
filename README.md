@@ -18,7 +18,7 @@ This app is deployed on netlify. Try it [LyricFinder](https://adorable-medovik-4
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/catuchi/TextToSpeech/main/dist/img/App%20Screenshot.png)
+![App Screenshot](https://github.com/catuchi/lyric_finder/blob/main/public/lyric_finder_screenshot.png?raw=true)
 
 ## Reference
 
