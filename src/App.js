@@ -9,7 +9,7 @@ import { IndexContext } from "./context";
 
 function App() {
   const [trackList, setTrackList] = useState([]);
-  const [heading, setheading] = useState("Top 10 Tracks");
+  const [heading, setHeading] = useState("Top 10 Tracks");
 
   useEffect(() => {
     const fetchTracks = async () => {
@@ -28,7 +28,9 @@ function App() {
   }, []);
 
   return (
-    <IndexContext.Provider value={{ trackList, heading }}>
+    <IndexContext.Provider
+      value={{ trackList, heading, setTrackList, setHeading }}
+    >
       <BrowserRouter>
         <>
           <Navbar />
