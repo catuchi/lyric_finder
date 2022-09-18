@@ -14,7 +14,7 @@ npm start
 
 ## Demo
 
-This app is deployed on netlify. Try it [LyricFinder](https://whimsical-cobbler-7797c5.netlify.app/)
+This app is deployed on netlify. Try it [LyricFinder](https://adorable-medovik-467b6b.netlify.app/)
 
 ## Screenshots
 
